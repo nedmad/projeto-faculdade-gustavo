@@ -1,0 +1,7 @@
+
+.ia{
+    @include background-text-style(rgb(220, 224, 226), 24px, 20px 10px, 10px);
+    max-width: 1000px;
+    margin: 30px auto;
+}
+

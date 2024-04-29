@@ -1,0 +1,92 @@
+
+
+.Home{
+    ul{
+        background-color: #368cc5 !important;
+        a{
+            color: aliceblue;
+        }
+    }
+   header{
+    width: 100%;
+    background-color: $second;
+    height: 70vh;
+    min-height: 500px;
+    font-size: 24px;
+
+    .headCont{
+        max-width: 1200px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+
+    p{
+        margin-top: 30px;
+    }
+   }
+
+
+   .cont{   
+
+        .containe{
+            max-width: 800px;
+            margin: 130px  auto;
+           
+        }
+        .pesquisa{
+            .barraPesquisa{
+                display: flex;
+                padding-top: 30px;
+                margin-top: 70px;
+                justify-content: center;
+            input{
+                display: block;
+                box-sizing: content-box;
+                padding: 15px 20px;
+                font-size: 21px;
+                width: 40%;
+                border: none;
+                background-color: rgb(220, 224, 226);
+                border-radius: 30px 0px 0px 30px;
+                outline: none;
+
+
+            }
+            button{
+                padding: 10px 30px;
+                cursor: pointer;
+                border: none;
+                background-color: rgb(220, 224, 226);
+                border-radius: 0px 30px 30px 0px;
+
+
+            }
+            }
+        }
+        .conteudoGeral{
+            padding: 100px 80px;
+            display: flex;
+            justify-content: center;
+            .conteudo{
+                box-sizing: content-box;
+                margin-bottom: 60px;
+                @include background-text-style($second,24px,30px, 10px);
+                font-size: 20px;
+                
+        
+                h1{
+                    margin: 30px 0;
+                    font-size: 22px;
+                }
+                
+        
+            }
+
+        }
+
+
+   }
+   
+  
+}
